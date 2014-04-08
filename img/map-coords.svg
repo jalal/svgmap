@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg">
+  <path d="M 318,146 L 308,167 L 320,179 L 337,182 L 337,203 L 356,191" id="area_18" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 289,189 L 271,220 L 277,232 L 298,234 L 308,240 L 322,215" id="area_19" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 236,137 L 255,128 L 252,100 L 285,107 L 284,151 L 300,164 L 286,180 L 262,185 L 251,171" id="area_16" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 289,114 L 315,140 L 304,162 L 288,147" id="area_17" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 271,237 L 267,253 L 284,269 L 306,272 L 336,262 L 297,239" id="area_14" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 311,240 L 330,214 L 357,195 L 371,214 L 361,246 L 346,260" id="area_15" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 217,291 L 241,318 L 260,317 L 279,332 L 302,327 L 334,300 L 313,279 L 268,267 L 262,238 L 223,236 L 198,217 L 201,247 L 183,289" id="area_12" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 205,179 L 240,149 L 240,165 L 253,185 L 259,193 L 284,184 L 266,218 L 269,231 L 232,232 L 203,214 L 215,199" id="area_13" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 298,111 L 376,205 L 400,186 L 403,164 L 382,149 L 412,113 L 388,51 L 353,33 L 360,101" id="area_10" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 309,8 L 347,14 L 353,91 L 294,104 L 257,91 L 269,22" id="area_11" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 16,268 L 2,323 L 16,339 L 56,343 L 92,313 L 65,283" id="highlighted" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 15,246 L 17,261 L 74,283 L 93,308 L 117,282 L 179,280 L 195,245 L 142,255 L 98,241" id="area_23" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 16,238 L 19,217 L 64,184 L 111,152 L 139,172 L 170,167 L 209,196 L 189,215 L 190,240 L 136,248 L 111,236" id="area_22" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 110,145 L 76,170 L 65,103 L 125,102 L 155,126 L 176,152 L 203,156 L 200,180 L 164,156 L 144,164" id="area_21" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 292,185 L 303,168 L 321,184 L 335,188 L 334,202 L 322,212" id="area_20" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 400,256 L 405,246 L 443,235 L 474,222 L 503,199 L 508,242 L 473,246 L 484,262 L 482,273 L 464,274 L 435,309 L 383,301 L 387,257" id="area_4" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 341,297 L 353,272 L 376,277 L 373,299 L 357,307" id="area_5" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 365,249 L 354,261 L 376,268 L 379,255" id="area_6" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 369,232 L 397,199 L 432,198 L 450,177 L 498,191 L 475,212 L 450,217 L 424,233 L 394,246 L 374,247" id="area_7" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 509,188 L 537,185 L 555,179 L 560,205 L 565,252 L 556,265 L 558,285 L 540,292 L 509,276 L 485,253 L 517,248" id="area_0" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 474,341 L 531,299 L 549,316 L 531,334 L 538,369 L 546,413 L 511,421 L 484,417 L 455,378" id="area_1" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 446,310 L 463,282 L 488,281 L 491,268 L 505,280 L 525,294 L 471,335" id="area_2" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 358,323 L 383,306 L 437,318 L 460,342 L 451,381 L 475,413 L 452,413 L 440,382 L 404,383" id="area_3" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 314,273 L 345,265 L 337,296" id="area_8" fill="none" stroke="black" stroke-width="1"/>
+  <path d="M 404,189 L 411,161 L 392,149 L 421,107 L 445,128 L 462,144 L 491,165 L 450,161 L 431,189" id="area_9" fill="none" stroke="black" stroke-width="1"/>
+</svg>
