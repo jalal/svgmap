@@ -54,7 +54,7 @@
                     path += pre + coords[i] + ',' + coords[i+1];
                 }
             }
-            var p = new Snap();
+            var p = new Snap(0,0); // need to give it a size otherwise it creates an emtpy svg Paper node
             var el = p.path(path);
             el.attr({ id: area.title, fill: 'none', stroke: strokeColor, link: area.href, d: path});
             el.hover(function(){
