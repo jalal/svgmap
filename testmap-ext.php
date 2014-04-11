@@ -16,8 +16,6 @@
 
     <link rel="stylesheet" href="css/screen.css">
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
     <script src="js/snap.svg.js"></script>
 </head>
 <body>
@@ -32,7 +30,7 @@
 
 <script src="js/svgmap-ext.js"></script>
 <script>
-    $(document).svgmap({
+    SvgMap({
       svgid:'#svgmap',
       mapurl:'img/map.svg',
       coordsurl:'img/map-coords.svg',
