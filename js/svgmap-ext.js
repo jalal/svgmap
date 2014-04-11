@@ -40,7 +40,7 @@ var SvgMap = function (opts) {
 
     var s = new Snap(svgid);
     var group = s.group();
-    Snap.load(mapurl, function(f) {
+    Snap.load(mapurl, function (f) {
         i = f.select('image');
         h = i.attr('height');
         w = i.attr('width');
@@ -56,34 +56,34 @@ var SvgMap = function (opts) {
     });
 
     var shadow = new Snap(svgid);
-    Snap.load(coordsurl, function(f) {
+    Snap.load(coordsurl, function (f) {
         areas = f.selectAll("path");
         console.log("Found areas: " + areas.length);
         for (var j = areas.length - 1; j >= 0; j--) {
             var el = areas[j];
             var title = el.attr('id');
             el.attr({ id: title, fill: 'none', stroke: strokeColor, link: title, title: title});
-            el.hover(function(){
+            el.hover(function () {
                 this.attr('fill', hoverFill);
-            }, function(){
+            }, function () {
                 this.attr('fill', 'transparent');
             });
-            el.click(function(){
+            el.click(function () {
                 // console.log('click: ' + this.attr('id'));
                 hideAll();
                 show('Clicked: ' + this.attr('id'));
             });
-            el.touchstart(function(){
+            el.touchstart(function () {
                 console.log('touch: ' + this.attr('id'));
                 this.attr('fill', hoverFill);
                 hideAll();
                 show('Touched: ' + this.attr('id'));
             });
-            el.touchend(function(){
+            el.touchend(function () {
                 this.attr('fill', 'transparent');
             });
             shadow.append(el);
-        };
+        }
     });
 
     function hideAll() {

@@ -74,21 +74,21 @@ var SvgMap = function (opts) {
         el.attr({ id: area.title, fill: 'none', stroke: strokeColor, link: area.href, d: path, title: area.title});
         el.hover(function () {
             this.attr('fill', hoverFill);
-        }, function() {
+        }, function () {
             this.attr('fill', 'transparent');
         });
-        el.click(function(){
+        el.click(function () {
             // console.log('click: ' + this.attr('id'));
             hideAll();
             show('Clicked: ' + this.attr('id'));
         });
-        el.touchstart(function(){
+        el.touchstart(function () {
             console.log('touch: ' + this.attr('id'));
             this.attr('fill', hoverFill);
             hideAll();
             show('Touched: ' + this.attr('id'));
         });
-        el.touchend(function(){
+        el.touchend(function () {
             this.attr('fill', 'transparent');
         });
         shadow.append(el);
